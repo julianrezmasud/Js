@@ -1,21 +1,21 @@
 const product = [
 
     {
-        name: "Digital Copy",
+        name: "The Naked Gun",
         id: 1,
         price: 5,
         img: "./img/Ngun.jpg"
     },
 
     {
-        name: "Digital Copy",
+        name: "Wayne's World",
         id: 2,
         price: 7,
         img: "./img/WW.jpg"
     },
 
     {
-        name: "Digital Copy",
+        name: "The Outsiders",
         id: 3,
         price: 4,
         img: "./img/outsiders.jpg"
@@ -23,49 +23,49 @@ const product = [
     },
 
     {
-        name: "Digital Copy",
+        name: "Stand By Me",
         id: 4,
         price: 4,
         img: "./img/SBYME.jpg",
     },
 
     {
-        name: "Digital Copy",
+        name: "Die Hard",
         id: 5,
         price: 6,
         img: "./img/DH.jpg",
     },
 
     {
-        name: "Digital Copy",
+        name: "Rambo: First Blood",
         id: 6,
         price: 8,
         img: "./img/Rambo.jpg",
     },
 
     {
-        name: "Digital Copy",
+        name: "Terminator 2: The Judgment Day",
         id: 7,
         price: 7,
         img: "./img/T2.jpg"
     },
 
     {
-        name: "Digital Copy",
+        name: "The Shining",
         id: 8,
         price: 10,
         img: "./img/Shining.jpg",
     },
 
     {
-        name: "Digital Copy",
+        name: "A Nightmare on Elm Street",
         id: 9,
         price: 8,
         img: "./img/ELM.jpg"
     },
 
     {
-        name: "Digital Copy",
+        name: "Scream",
         id: 10,
         price: 10,
         img: "./img/Scream10.jpg"
