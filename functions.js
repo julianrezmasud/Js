@@ -1,6 +1,11 @@
 function addtocart(a) {
     cart.push({ ...categories[a] });
 
+    Toastify({
+        text: "Movie Added!",
+        duration: 1000,
+    }).showToast();
+
     localStorage.setItem("cart", (JSON.stringify(cart)))
 
     displaycart();
@@ -19,7 +24,7 @@ function delElement(a) {
 function displaycart() {
     let j = 0, total = 0;
     document.getElementById("count").innerHTML = cart.length;
-    console.log(cart)
+    //console.log(cart)
     if (cart.length == 0) {
         document.getElementById('cartItem').innerHTML = "Your cart is empty";
         document.getElementById("total").innerHTML = "$ " + 0 + ".00";

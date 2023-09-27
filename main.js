@@ -1,3 +1,10 @@
+fetch("products.json")
+    .then((data) => {
+        console.log(data.json())
+    });
+fetch("products.json").then(response => response.json()).then(data => console.log(data))
+
+
 const categories = [...new Set(product.map((item) => { return item }))]
 let i = 0;
 document.getElementById('container2').innerHTML = categories.map((item) => {
