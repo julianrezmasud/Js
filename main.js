@@ -25,7 +25,6 @@ fetch("products.json")
             )
         }).join('')
 
-
     });
 
 

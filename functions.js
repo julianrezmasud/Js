@@ -9,9 +9,7 @@ function addtocart(a) {
     localStorage.setItem("cart", (JSON.stringify(cart)))
 
     displaycart();
-
 }
-
 
 function delElement(a) {
     cart.splice(a, 1);
@@ -24,7 +22,6 @@ function delElement(a) {
 function displaycart() {
     let j = 0, total = 0;
     document.getElementById("count").innerHTML = cart.length;
-    //console.log(cart)
     if (cart.length == 0) {
         document.getElementById('cartItem').innerHTML = "Your cart is empty";
         document.getElementById("total").innerHTML = "$ " + 0 + ".00";
